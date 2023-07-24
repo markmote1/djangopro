@@ -13,3 +13,10 @@ def projectspage(request):
 
 def blogpage(request):
     return render(request, "blog.html")
+
+def indexpage(request):
+    return render(request, "index.html")
+
+
+def signuppage(request):
+    return render(request, "signup.html")
